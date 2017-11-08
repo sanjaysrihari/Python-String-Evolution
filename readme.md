@@ -1,0 +1,1 @@
+This is a relaxing program designed to be run in a terminal. You simply input a string, and then watch a randomly generated string 'mutate' into your chosen string. This program currently only works with Python 3.
