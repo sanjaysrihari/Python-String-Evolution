@@ -13,7 +13,6 @@ def evolution(goal):
         loopcount += 1
         if goal[(charnum-1):charnum] != randstring[(charnum-1):charnum]:
             replacer = random.choice(choices)
-            replaced = randstring[(charnum-1):charnum]
             randlist = list(randstring)
             randlist[(charnum - 1)] = replacer
             randstring = ''.join(randlist)
