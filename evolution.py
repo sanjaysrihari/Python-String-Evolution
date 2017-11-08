@@ -3,7 +3,7 @@ import random
 from time import sleep
 def evolution(goal):
     loopcount = 0
-    choices = string.ascii_letters + string.digits + '''~`!@#$%^&*()_ -+={[]}:;""'\<>,.?/|'''
+    choices = string.ascii_letters + string.digits + r'''~`!@#$%^&*()_ -+={[]}:;""'\<>,.?/|'''
     stringcount = len(goal)
     randstring = ''.join(random.choices(choices, k=stringcount))
     print("The string that will mutate into your string looks like this:\n", randstring)
